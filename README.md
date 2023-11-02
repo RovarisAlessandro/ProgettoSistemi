@@ -10,10 +10,10 @@ L'obbiettivo è sviluppare un sistema di monitoraggio della produzione che conse
 Obiettivi del Sistema:
  - Automatizzare il monitoraggio della produzione per migliorare l'efficienza e la produttività.
  - Fornire una panoramica in tempo reale delle attività di produzione.
- - Raccogliere dati di produzione per l'analisi delle prestazioni.
+ - Raccogliere dati di produzione per effettuarne un'analisi.
 
 Elenco delle Funzionalità Richieste:
- - Registrazione automatica dei dati relativi a quantità prodotte, tempi di ciclo, velocità delle linee di produzione.
+ - Registrazione automatica dei dati delle linee di produzione.
  - Possibilità di inserire manualmente dati di produzione in caso di necessità.
 
 Monitoraggio in Tempo Reale:
@@ -21,8 +21,7 @@ Monitoraggio in Tempo Reale:
  - Allarmi per segnalare eventuali problemi o malfunzionamenti.
    
 Gestione Utenti e Autorizzazioni:
- - Creazione di account utente con diverse autorizzazioni di accesso.
- - Possibilità di monitorare le attività degli utenti e di garantire la sicurezza dei dati.
+ - Creazione di account utente con due diverse autorizzazioni di accesso (Operaio e Supervisore/Manutentore).
 
 Conclusione:
 Il sistema di monitoraggio della produzione proposto mira a risolvere il problema di mancanza di visibilità e controllo nelle operazioni di produzione. Implementando le funzionalità sopra elencate, il sistema consentirà alle aziende di migliorare l'efficienza, ridurre i costi e prendere decisioni più informate sulla produzione.
