@@ -1,6 +1,6 @@
 # Analisi Produzione
 
-
+Gestisci la produzione con facilità e precisione: il futuro della tua efficienza è adesso.
 
 Titolo del Progetto: Sistema di Monitoraggio della Produzione
 
