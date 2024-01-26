@@ -1,4 +1,4 @@
-# Analisi Produzione
+# Analisi generale progetto
 
 Gestisci la produzione con facilità e precisione: il futuro della tua efficienza è adesso.
 
@@ -27,10 +27,10 @@ Gestione Utenti e Autorizzazioni:
 Conclusione:
 Il sistema di monitoraggio della produzione proposto mira a risolvere il problema di mancanza di visibilità e controllo nelle operazioni di produzione. Implementando le funzionalità sopra elencate, il sistema consentirà alle aziende di migliorare l'efficienza, ridurre i costi e prendere decisioni più informate sulla produzione.
 
-Link UML: 
+# Link UML
 https://yuml.me/diagram/usecase/[Operaio]-(Log%20In%20Page),%20(Log%20In%20Page)%3C(Inserimento%20Manuale%20Dati),%20(Inserimento%20Manuale%20Dati)%3E(Malfunzionamento),%20[Supervisore]-(Log%20In%20Page),%20(Log%20In%20Page)%3E(Visualizza%20Dashboard),%20(Visualizza%20Dashboard)-(Analisi%20Dei%20Dati),%20(Visualizza%20Dashboard)%3C(Allarmi%20Eventuali),%20(Log%20In%20Page)%3C(Sign%20Up),%20[Linea%20Di%20Produzione]-(Upload%20dei%20dati),%20(Upload%20dei%20dati)%3E(Visualizza%20Dashboard),
 
-#userStory
+# User story
 
  - User Story 1:
 Come operatore di produzione, voglio che il sistema registri automaticamente i dati delle linee di produzione per garantire un monitoraggio accurato e automatizzato.
