@@ -27,6 +27,32 @@ Gestione Utenti e Autorizzazioni:
 Conclusione:
 Il sistema di monitoraggio della produzione proposto mira a risolvere il problema di mancanza di visibilità e controllo nelle operazioni di produzione. Implementando le funzionalità sopra elencate, il sistema consentirà alle aziende di migliorare l'efficienza, ridurre i costi e prendere decisioni più informate sulla produzione.
 
+## Gestione del Multi-Tenancy
+
+Il sistema di monitoraggio della produzione è progettato per supportare il multi-tenancy, consentendo di essere venduto e utilizzato da più clienti in modo personalizzato. Di seguito sono elencate le principali caratteristiche di questa funzionalità:
+
+### Isolamento dei Dati
+
+Il sistema garantisce l'isolamento dei dati tra i diversi clienti, in modo che ciascun cliente possa accedere solo alle proprie informazioni di produzione. Questo viene realizzato attraverso una struttura di database multi-tenant, dove ogni cliente ha il proprio schema o spazio di archiviazione separato.
+
+### Personalizzazione dell'Interfaccia Utente
+
+Il sistema offre la possibilità di personalizzare l'interfaccia utente in base alle esigenze specifiche di ciascun cliente. Ciò include la configurazione delle viste della dashboard, dei report e delle notifiche per riflettere le preferenze e i requisiti individuali.
+
+### Gestione delle Autorizzazioni
+
+Le autorizzazioni di accesso possono essere personalizzate per ciascun cliente, consentendo di definire ruoli utente e privilegi di accesso in base alle specifiche dell'organizzazione. Ad esempio, un cliente può designare alcuni utenti come supervisori con accesso completo ai dati di produzione, mentre altri possono avere solo autorizzazioni di visualizzazione limitate.
+
+### Scalabilità e Flessibilità
+
+Il sistema è progettato per essere altamente scalabile e flessibile, in modo da poter gestire facilmente l'aggiunta di nuovi clienti e l'espansione delle loro operazioni di produzione. Ciò include la capacità di adattarsi a diverse dimensioni di aziende e settori industriali.
+
+### Gestione delle Configurazioni
+
+Ogni cliente può gestire le proprie configurazioni del sistema, incluse le impostazioni di allarme, i criteri di rilevamento dei problemi e le preferenze di notifica. Questo consente una maggiore personalizzazione e adattabilità alle specifiche esigenze aziendali.
+
+In conclusione, il supporto per il multi-tenancy del sistema di monitoraggio della produzione offre una soluzione flessibile e personalizzabile per soddisfare le diverse esigenze dei clienti, consentendo loro di massimizzare l'efficienza e il controllo sulle proprie operazioni di produzione.
+
 # Link UML
 https://yuml.me/diagram/usecase/[Operaio]-(Log%20In%20Page),%20(Log%20In%20Page)%3C(Inserimento%20Manuale%20Dati),%20(Inserimento%20Manuale%20Dati)%3E(Malfunzionamento),%20[Supervisore]-(Log%20In%20Page),%20(Log%20In%20Page)%3E(Visualizza%20Dashboard),%20(Visualizza%20Dashboard)-(Analisi%20Dei%20Dati),%20(Visualizza%20Dashboard)%3C(Allarmi%20Eventuali),%20(Log%20In%20Page)%3C(Sign%20Up),%20[Linea%20Di%20Produzione]-(Upload%20dei%20dati),%20(Upload%20dei%20dati)%3E(Visualizza%20Dashboard),
 
